@@ -23,7 +23,22 @@ namespace ProgramozasiTetelek
             Kivalasztas();
             Console.WriteLine();
             Kereses();
+            Console.WriteLine();
+            Maximum();
             Console.ReadKey();
+        }
+
+        private static void Maximum()
+        {
+            int m = 1;
+            for (int i = 2; i < tomb.Length; i++)
+            {
+                if (tomb[i]>tomb[m])
+                {
+                    m = i;
+                }
+            }
+            Console.WriteLine(tomb[m]+" a legnagyobb elem");
         }
 
         private static void Kereses()

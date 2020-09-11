@@ -22,3 +22,5 @@
 - Hányadik az 50-es?
 ## Keresés
 - Van-e benne 50 és ha van hányadik?
+## Maximum
+- Kiírni a legnagyobb elemet
