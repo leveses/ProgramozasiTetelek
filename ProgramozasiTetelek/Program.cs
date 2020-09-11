@@ -21,7 +21,26 @@ namespace ProgramozasiTetelek
             Eldontes();
             Console.WriteLine();
             Kivalasztas();
+            Console.WriteLine();
+            Kereses();
             Console.ReadKey();
+        }
+
+        private static void Kereses()
+        {
+            int i = 1;
+            while (i < tomb.Length && tomb[i] != 50)
+            {
+                i++;
+            }
+            if (i < tomb.Length)
+            {
+                Console.WriteLine(i+1 + ". helyen van");
+            }
+            else
+            {
+                Console.WriteLine("nincs");
+            }
         }
 
         private static void Kivalasztas()

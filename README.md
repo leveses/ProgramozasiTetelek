@@ -20,3 +20,5 @@
 - Van-e a tömben 69?
 ## Kiválasztás
 - Hányadik az 50-es?
+## Keresés
+- Van-e benne 50 és ha van hányadik?
