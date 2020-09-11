@@ -19,17 +19,29 @@ namespace ProgramozasiTetelek
             Megszamolas();
             Console.WriteLine();
             Eldontes();
+            Console.WriteLine();
+            Kivalasztas();
             Console.ReadKey();
+        }
+
+        private static void Kivalasztas()
+        {
+            int i = 1;
+            while (i<tomb.Length && tomb[i] != 50)
+            {
+                i++;
+            }
+            Console.WriteLine("Az 50 {0}. helyen van",i+1);
         }
 
         private static void Eldontes()
         {
             int i = 1;
-            while (i<=tomb.Length && tomb[i]!=69)
+            while (i<tomb.Length && tomb[i]!=69)
             {
                 i += 1;
             }
-            if (i<=tomb.Length)
+            if (i<tomb.Length)
             {
                 Console.WriteLine("Volt 69-es szám.");
             }
