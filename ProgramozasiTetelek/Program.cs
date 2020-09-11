@@ -15,7 +15,22 @@ namespace ProgramozasiTetelek
             TombKiiras();
             Console.WriteLine();
             Osszegzes();
+            Console.WriteLine();
+            Megszamolas();
             Console.ReadKey();
+        }
+
+        private static void Megszamolas()
+        {
+            int s = 0;
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                if (tomb[i]%3 == 1)
+                {
+                    s += 1;
+                }
+            }
+            Console.WriteLine(s + " db van");
         }
 
         private static void Osszegzes()

@@ -12,3 +12,6 @@
 - Osszegzes() metódus létrehozása
 - Összegzés tétele a tömbön
 - Eredmény kiírása a consolra
+## Megszámlálás
+- Megszamolas() metódus létrehozása
+- Hány 3-al osztható elem van a tömb-ben
