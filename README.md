@@ -15,3 +15,6 @@
 ## Megszámlálás
 - Megszamolas() metódus létrehozása
 - Hány 3-al osztható elem van a tömb-ben
+## Eldöntés
+- Eldontes[] mteodus létrehozása
+- Van-e a tömben 69?

@@ -17,7 +17,26 @@ namespace ProgramozasiTetelek
             Osszegzes();
             Console.WriteLine();
             Megszamolas();
+            Console.WriteLine();
+            Eldontes();
             Console.ReadKey();
+        }
+
+        private static void Eldontes()
+        {
+            int i = 1;
+            while (i<=tomb.Length && tomb[i]!=69)
+            {
+                i += 1;
+            }
+            if (i<=tomb.Length)
+            {
+                Console.WriteLine("Volt 69-es szám.");
+            }
+            else
+            {
+                Console.WriteLine("Nem volt 69-es szám");
+            }
         }
 
         private static void Megszamolas()
