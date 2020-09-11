@@ -13,7 +13,19 @@ namespace ProgramozasiTetelek
         static void Main(string[] args)
         {
             TombKiiras();
+            Console.WriteLine();
+            Osszegzes();
             Console.ReadKey();
+        }
+
+        private static void Osszegzes()
+        {
+            int s = 0;
+            for (int i = 0; i < tomb.Length; i++)
+            {
+                s = s + tomb[i];
+            }
+            Console.WriteLine(s);
         }
 
         private static void TombKiiras()
