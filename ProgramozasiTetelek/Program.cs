@@ -43,19 +43,15 @@ namespace ProgramozasiTetelek
 
         private static void Kereses()
         {
-            int i = 1;
-            while (i < tomb.Length && tomb[i] != 50)
+            int x = 0;
+            foreach (var i in tomb)
             {
-                i++;
+                if (i == 1170)
+                {
+                    x++;
+                }
             }
-            if (i < tomb.Length)
-            {
-                Console.WriteLine(i+1 + ". helyen van");
-            }
-            else
-            {
-                Console.WriteLine("nincs");
-            }
+            Console.WriteLine($"Az 1170 {x}-szer fordul elő");
         }
 
         private static void Kivalasztas()
